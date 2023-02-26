@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js"
   },
   "author": "Dmitry Tkachenko<dima-tkachenko@mail.ru>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
