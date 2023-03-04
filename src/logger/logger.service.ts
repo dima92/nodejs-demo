@@ -9,6 +9,7 @@ export class LoggerService implements ILogger {
 
 	constructor() {
 		this.logger = new Logger({
+			// @ts-ignore
 			displayInstanceName: false,
 			displayLoggerName: false,
 			displayFilePath: 'hidden',
