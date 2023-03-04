@@ -2,15 +2,17 @@
   "name": "dashboard-api",
   "version": "1.0.0",
   "description": "API для учебного проекта по NodeJS",
-  "main": "index.ts",
-  "type": "module",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node ./dist/index.js"
+    "start": "node ./dist/main.js",
+    "build": "tsc"
   },
   "author": "Dmitry Tkachenko<dima-tkachenko@mail.ru>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "tslog": "^4.8.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.17"
